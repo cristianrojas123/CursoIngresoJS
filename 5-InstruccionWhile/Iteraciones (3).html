@@ -39,6 +39,7 @@
 	  
 	   	<a  class="MiBotonUTNnav" onclick="mostrar()" >Pedir la clave</a>
 	 </form>	
+	 
   </div>
 
   <div class="col-3 col-s-12">
@@ -60,5 +61,38 @@
   	<p>Curso de ingreso UTN FRA</p>
 </div>
 
+<div class="center">
+	
+	   <div class="progress">
+	   <p>HTML5</p>
+		   <progress id="html5" max="100" value="91"></progress>
+		   <span></span>
+	   </div>
+	   
+	   <div class="progress">
+	   <p>Javascript</p>
+		   <progress id="javascript" max="100" value="79"></progress>
+		   <span></span>
+	   </div>
+	    
+		   
+	   <input type="button" id="boton" value="Reload" />
+   </div>
+
+
 </body>
 </html>
+<script type="text/javascript"> 
+	
+		window.onload = function() { 
+			
+			animateprogress("#html5",91);
+			animateprogress("#javascript",79);
+			
+		} 	
+		document.querySelector ("#boton").addEventListener ("click", function() { 
+			animateprogress("#html5",91);
+			animateprogress("#javascript",79);
+	   
+		});
+	</script>
