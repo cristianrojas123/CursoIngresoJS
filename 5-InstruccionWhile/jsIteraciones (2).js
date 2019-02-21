@@ -7,6 +7,6 @@ function mostrar()
 		while(numero)
 		{
 			alert("El numero es: " + numero);
-			numero = numero - 1;
+			numero--;
 		}
 }//FIN DE LA FUNCIÓN

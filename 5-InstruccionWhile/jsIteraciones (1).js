@@ -8,7 +8,7 @@ function mostrar()
 		while(numero < 11)
 		{
 			alert("El numero es: " + numero);
-			numero = numero + 1;
+			numero++;
 		}
 
 }//FIN DE LA FUNCIÓN

@@ -7,8 +7,8 @@ function mostrar()
 		
 		while(numero <= 9 && (numero >= 0))
 		{
-			alert("El numero es: " + numero);
-			numero = 11;
+			document.getElementById("Numero").value = numero;
+			break;
 		}
 
 }//FIN DE LA FUNCIÓN
